@@ -10,7 +10,9 @@ function onReady(callback) {
 }
 
 function setVisible(selector, visible) {
-  document.querySelector(selector).style.display = visible ? 'block' : 'none';
+  if (document.querySelector(selector)) {
+    document.querySelector(selector).style.display = visible ? 'block' : 'none';
+  }
 }
 
 onReady(function() {
