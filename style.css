@@ -68,13 +68,26 @@ body{
   padding: 10px;
 }
 
+.star-wrapper{
+  background-color: white;
+  margin: auto;
+  width: 500px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .stars ul{
   list-style: none;
 }
 
 .stars li{
   display: inline-block;
-  color: rgb(255, 204, 0);
+  color: grey;
+}
+
+.stars p{
+  padding-right: 10px;
+  color: grey;
 }
 
 #menu_logo{
