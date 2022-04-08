@@ -150,6 +150,14 @@ img {
     margin-bottom: 10px;
 }
 
+.accomodations-content p {
+    font-size: 20px;
+}
+
+.accomodations-content h2 {
+    font-size: 30px;
+}
+
 .image_1 {
     background-image: url(./images/summer_palace.jpeg);
     min-height: 700px;
@@ -203,6 +211,7 @@ img {
 .topbar {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 10px;
 }
 
