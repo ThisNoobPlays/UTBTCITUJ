@@ -126,7 +126,7 @@ body {
 #menu_logo {
     width: 48px;
     display: block;
-    margin: auto;
+    margin: 0;
 }
 
 .footer {
@@ -219,6 +219,7 @@ img {
 .topbar {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
     margin-bottom: 10px;
     color: black;
 }
