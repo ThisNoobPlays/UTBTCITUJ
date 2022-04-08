@@ -68,12 +68,35 @@ body {
     padding: 10px;
 }
 
-.star-wrapper {
-    background-color: white;
+.ratings{
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.rating{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-end;
+  align-items: center;
+  height: 250px;
+}
+
+.ratings div{
+  background-color: white;
+  width: 200px;
+  text-align: center;
+}
+.stars{
     margin: auto;
-    width: 500px;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
 .stars ul {
@@ -86,8 +109,17 @@ body {
 }
 
 .stars p {
-    padding-right: 10px;
     color: grey;
+}
+
+.stars {
+    padding: 0;
+    font-size: 20px;
+}
+
+.stars ul {
+    padding: 0;
+    margin: 0;
 }
 
 #menu_logo {
@@ -121,23 +153,6 @@ a:visited {
 a:hover {
     text-decoration: none;
     color: grey;
-}
-
-.ratings {
-    background-color: lightgrey;
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.stars {
-    padding: 0;
-    font-size: 48px;
-}
-
-.stars ul {
-    padding: 0;
-    margin: 0;
 }
 
 #JE {
