@@ -4,6 +4,10 @@ body {
     margin: none;
 }
 
+img{
+  border-radius: 10px;
+}
+
 .menu div {
     text-align: center;
 }
@@ -21,6 +25,7 @@ body {
     overflow: hidden;
     background-color: #333333;
     list-style: inside;
+    border-radius: 10px;
 }
 
 .footer {
@@ -76,6 +81,7 @@ body {
   text-align: center;
   margin-top: 10px;
   padding-bottom: 20px;
+  border-radius: 10px;
 }
 
 .rating{
@@ -174,6 +180,7 @@ img {
     background-size: cover;
     margin-bottom: 10px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .image_2 {
@@ -185,6 +192,7 @@ img {
     background-size: cover;
     margin-bottom: 10px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .image_3 {
@@ -196,6 +204,7 @@ img {
     background-size: cover;
     margin-bottom: 10px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .image_4 {
@@ -207,6 +216,20 @@ img {
     background-size: cover;
     margin-bottom: 10px;
     margin-top: 10px;
+    border-radius: 10px;
+}
+
+.image_5{
+  background-image: url(./images/summer_palace_1.png);
+  min-height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%
 }
 
 .caption {
