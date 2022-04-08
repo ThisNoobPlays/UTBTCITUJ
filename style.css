@@ -284,3 +284,24 @@ img {
   width: 600px;
   margin: auto;
 }
+
+.math{
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  color: black;
+  padding-left: 20px;
+}
+
+.math h3{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
