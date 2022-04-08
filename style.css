@@ -68,34 +68,35 @@ body {
     padding: 10px;
 }
 
-.ratings{
-  margin: 0;
-  display: inline-block;
-  width: 100%;
-  background-color: lightgrey;
-  text-align: center;
-  margin-top: 10px;
-  padding-bottom: 20px;
+.ratings {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    background-color: lightgrey;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 
-.rating{
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: flex-end;
-  align-items: center;
-  height: 250px;
+.rating {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: center;
+    height: 250px;
 }
 
-.ratings div{
-  background-color: white;
-  width: 200px;
-  text-align: center;
+.ratings div {
+    background-color: white;
+    width: 200px;
+    text-align: center;
 }
-.stars{
+
+.stars {
     margin: auto;
 }
 
@@ -165,14 +166,6 @@ img {
     margin-bottom: 10px;
 }
 
-.accomodations-content p {
-    font-size: 20px;
-}
-
-.accomodations-content h2 {
-    font-size: 30px;
-}
-
 .image_1 {
     background-image: url(./images/summer_palace.jpeg);
     min-height: 700px;
@@ -226,7 +219,6 @@ img {
 .topbar {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-bottom: 10px;
 }
 
