@@ -81,6 +81,7 @@ img{
     text-align: center;
     margin-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 .rating {
