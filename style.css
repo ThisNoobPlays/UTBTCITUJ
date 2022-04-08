@@ -2,6 +2,7 @@ body {
     font-family: Roboto, sans-serif;
     padding: none;
     margin: none;
+    border-radius: 10px;
 }
 
 img{
@@ -141,6 +142,7 @@ img{
     padding: 10px;
     font-size: 10px;
     font-weight: lighter;
+    border-radius: 10px;
 }
 
 .footer p {
@@ -230,7 +232,7 @@ img {
   margin-bottom: 10px;
   margin-top: 10px;
   border-radius: 10px;
-  width: 100%
+  width: 200%
 }
 
 .caption {
